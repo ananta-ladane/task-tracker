@@ -1,0 +1,459 @@
+.main {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+}
+
+@media (min-width:1200px) {
+
+    .main {
+        width: 20%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(9, 9, 11, 0.99)
+    }
+
+    .di1 {
+        padding: 30px 12px 20px 20px;
+        margin-left: 13px;
+    }
+
+    .di1 p button {
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 5px;
+        background-color: rgb(133, 104, 238);
+        border: none;
+    }
+
+    .di1 p button i {
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .di1 p {
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .di2 {
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    .di2p1 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .di2p2 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p2 a {
+        color: rgba(249, 249, 251, 0.688);
+        text-decoration: none;
+    }
+
+    .di2p2:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di2p3 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p3:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di2p4 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p4:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di3 {
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+
+    .di3p1 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    .di3p2 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di3p2:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di3p3 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 14px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di3p3:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di4 {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid rgb(168, 165, 165);
+    }
+
+    .di4d1 {
+        width: 80%;
+        background-color: rgb(48, 50, 50);
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .di4d1p1 {
+        color: gray;
+        text-transform: capitalize;
+        font-weight: 500;
+         font-size: 14px;
+    }
+
+    .di4d1p2 {
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .di4d1p2 span {
+        font-size: 14px;
+        color: green;
+    }
+
+    .di4d2 {
+        margin-top: 18px;
+        margin-left: 20px;
+        padding: 15px 10px 15px 10px;
+        background-color: rgba(122, 128, 128, 0.2);
+        display: flex;
+        width: 82%;
+        border-radius: 10px;
+
+    }
+
+    .di4d2 img {
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: gray;
+        padding-top: 8px;
+    }
+
+    .di4sub1p1 {
+        font-weight: 600;
+        color: white;
+         font-size: 15px;
+    }
+
+    .di4sub1p2 {
+        text-transform: capitalize;
+        color: gray;
+         font-size: 14px;
+    }
+
+    .di5 {
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .di5but1 {
+        padding: 15px 10px 15px 4px;
+        width: 93%;
+        border-radius: 8px;
+        font-size: 16px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.2);
+        color: red;
+        font-weight: 700;
+
+    }
+
+    .di5but1:hover {
+        padding: 15px 10px 15px 4px;
+        background-color: rgba(229, 149, 149, 0.4);
+    }
+
+
+}
+
+
+@media (min-width:1400px) {
+
+    .main {
+        width: 20%;
+        height: 100vh;
+        position: fixed;
+        background-color: rgba(9, 9, 11, 0.99)
+    }
+
+    .di1 {
+        padding: 30px 12px 20px 20px;
+        margin-left: 13px;
+    }
+
+    .di1 p button {
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 5px;
+        background-color: rgb(133, 104, 238);
+        border: none;
+    }
+
+    .di1 p button i {
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .di1 p {
+        font-size: 19px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .di2 {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+
+    .di2p1 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .di2p2 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 17px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p2 a {
+        color: rgba(249, 249, 251, 0.688);
+        text-decoration: none;
+    }
+
+    .di2p2:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di2p3 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 17px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p3:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di2p4 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 17px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di2p4:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di3 {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+
+    .di3p1 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .di3p2 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 17px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di3p2:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di3p3 {
+        text-transform: capitalize;
+        color: rgba(249, 249, 251, 0.688);
+        padding: 10px 10px 10px 8px;
+        font-size: 17px;
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .di3p3:hover {
+        background-color: gray;
+        padding: 10px 10px 10px 8px;
+        border-radius: 10px;
+    }
+
+    .di4 {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid rgb(168, 165, 165);
+    }
+
+    .di4d1 {
+        width: 82%;
+        background-color: rgb(48, 50, 50);
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .di4d1p1 {
+        color: gray;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .di4d1p2 {
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        margin-top: 5px;
+        font-size: 19px;
+    }
+
+    .di4d1p2 span {
+        font-size: 14px;
+        color: green;
+    }
+
+    .di4d2 {
+        margin-top: 18px;
+        margin-left: 20px;
+        padding: 15px 10px 15px 10px;
+        background-color: rgba(122, 128, 128, 0.2);
+        display: flex;
+        width: 82%;
+        border-radius: 10px;
+
+    }
+
+    .di4d2 img {
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: gray;
+        padding-top: 8px;
+    }
+
+    .di4sub1p1 {
+        font-weight: 600;
+        color: white;
+    }
+
+    .di4sub1p2 {
+        text-transform: capitalize;
+        color: gray;
+    }
+
+    .di5 {
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .di5but1 {
+        padding: 15px 10px 15px 4px;
+        width: 93%;
+        border-radius: 8px;
+        font-size: 18px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.2);
+        color: red;
+        font-weight: 700;
+
+    }
+
+    .di5but1:hover {
+        padding: 15px 10px 15px 4px;
+        background-color: rgba(229, 149, 149, 0.4);
+    }
+
+
+}

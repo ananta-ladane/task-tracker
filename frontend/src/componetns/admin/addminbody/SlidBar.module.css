@@ -1,0 +1,801 @@
+.main {
+    width: 25%;
+    height: 98.5vh;
+    background-color: white;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: black;
+    position: absolute;
+    margin-top: 40px;
+
+
+}
+
+.slidup {
+    width: 60%;
+    /* background-color: rgb(138, 74, 227); */
+    position: absolute;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.btn2 {
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+.btn1 {
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+
+@media (min-width:992px) {
+
+    .main {
+        width: 20%;
+        background-color: rgba(9, 9, 11, 0.95);
+        position: fixed;
+
+        padding-top: 20px;
+    }
+
+    .slidup {
+        width: 100%;
+        /* background-color: rgb(138, 74, 227); */
+        position: absolute;
+        transition: 0.4s;
+        z-index: 2;
+
+    }
+
+    .btn2 {
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+    }
+
+
+    .di1 {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .log {
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .log button {
+        padding: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right top,
+                #6366f1,
+                #ec4899);
+    }
+
+    .log button i {
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .log span {
+        color: #6366f1;
+    }
+
+    .di2 {
+        color: white;
+        margin-top: 12px;
+    }
+
+    .di2p1 {
+        padding-left: 20px;
+        margin-bottom: 8px;
+        color: rgb(161 161 170);
+    }
+
+    .di2p2 {
+        border: 1px solid rgb(109, 29, 188);
+        width: 70%;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: #7e1ab8;
+        background-color: rgba(42, 36, 60, 0.6);
+
+    }
+
+    .di2p3 {
+
+        width: 70%;
+        padding: 8px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+
+    }
+
+    .di2p3:hover {
+
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di3 {
+        color: white;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .di3p1 {
+        padding-left: 20px;
+        margin-bottom: 1px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+    .di3p2 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 25px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p2:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p3 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p3li {
+        color: rgb(161 161 170);
+        text-decoration: none;
+    }
+
+    .di3p3:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p4 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p4:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di4 {
+        margin-top: 10px;
+    }
+
+    .di5 {
+        margin-top: 12px;
+        color: white;
+    }
+
+    .di5p1 {
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+    }
+
+    .di5p1:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di5p2 {
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(232, 20, 20);
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .di5p2 i {
+        font-weight: 900;
+    }
+
+    .di5p2:hover {
+        background-color: rgb(62, 45, 45);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di5di1 {
+        margin-top: 5px;
+        display: flex;
+        margin-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 70%;
+        padding-left: 10px;
+        border-radius: 10px;
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di5di1 img {
+        border-radius: 10px;
+        border: 1px dotted white;
+    }
+
+    .di5sub1 {
+        margin-left: 10px;
+    }
+
+    .di5sub1p1 {
+        text-transform: capitalize;
+    }
+
+
+    .di5sub1p2 {
+        color: #7e1ab8;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (min-width:1200px) {
+
+    .main {
+        width: 20%;
+        background-color: rgba(9, 9, 11, 0.95);
+        position: fixed;
+
+        padding-top: 20px;
+    }
+
+    .slidup {
+        width: 100%;
+        /* background-color: rgb(138, 74, 227); */
+        position: absolute;
+        transition: 0.4s;
+        z-index: 2;
+
+    }
+
+    .btn2 {
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+    }
+
+
+    .di1 {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .log {
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .log button {
+        padding: 10px 10px 7px 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right top,
+                #6366f1,
+                #ec4899);
+    }
+
+    .log button i {
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .log span {
+        color: #6366f1;
+    }
+
+    .di2 {
+        color: white;
+        margin-top: 12px;
+    }
+
+    .di2p1 {
+        padding-left: 20px;
+        margin-bottom: 8px;
+        color: rgb(161 161 170);
+        font-size: 12px;
+    }
+
+    .di2p2 {
+        border: 1px solid rgb(109, 29, 188);
+        width: 70%;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: #7e1ab8;
+        background-color: rgba(42, 36, 60, 0.6);
+        font-size: 14px;
+
+    }
+
+    .di2p3 {
+
+        width: 70%;
+        padding: 8px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        font-size: 14px;
+
+    }
+
+    .di2p3:hover {
+
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di3 {
+        color: white;
+        margin-top: 12px;
+        margin-bottom: 10px;
+
+    }
+
+    .di3p1 {
+        padding-left: 20px;
+        margin-bottom: 1px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 11px;
+    }
+
+    .di3p2 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 25px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 14px;
+
+    }
+
+    .di3p2:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p3 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 14px;
+
+    }
+
+    .di3p3li {
+        color: rgb(161 161 170);
+        text-decoration: none;
+    }
+
+    .di3p3:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p4 {
+
+        width: 70%;
+        padding: 10px 10px 8px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        font-size: 14px;
+
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p4:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 8px 10px;
+    }
+
+    .di4 {
+        margin-top: 10px;
+    }
+
+    .di5 {
+        margin-top: 5px;
+        color: white;
+    }
+
+    .di5p1 {
+        width: 70%;
+        padding: 10px 10px 8px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    .di5p1:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 8px 10px;
+    }
+
+    .di5p2 {
+        width: 70%;
+        padding: 10px 10px 8px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(232, 20, 20);
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .di5p2 i {
+        font-weight: 900;
+    }
+
+    .di5p2:hover {
+        background-color: rgb(62, 45, 45);
+        padding: 10px 10px 8px 10px;
+    }
+
+    .di5di1 {
+        margin-top: 5px;
+        display: flex;
+        margin-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 70%;
+        padding-left: 10px;
+        border-radius: 10px;
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di5di1 img {
+        border-radius: 10px;
+        border: 1px dotted white;
+    }
+
+    .di5sub1 {
+        margin-left: 10px;
+    }
+
+    .di5sub1p1 {
+        text-transform: capitalize;
+    }
+
+
+    .di5sub1p2 {
+        color: #7e1ab8;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1400px) {
+
+    .main {
+        width: 20%;
+        background-color: rgba(9, 9, 11, 0.95);
+        position: fixed;
+
+        padding-top: 20px;
+    }
+
+    .slidup {
+        width: 100%;
+        /* background-color: rgb(138, 74, 227); */
+        position: absolute;
+        transition: 0.4s;
+        z-index: 2;
+
+    }
+
+    .btn2 {
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+    }
+
+
+    .di1 {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .log {
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .log button {
+        padding: 10px;
+        border-radius: 10px;
+        background: linear-gradient(to right top,
+                #6366f1,
+                #ec4899);
+    }
+
+    .log button i {
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .log span {
+        color: #6366f1;
+    }
+
+    .di2 {
+        color: white;
+        margin-top: 12px;
+    }
+
+    .di2p1 {
+        padding-left: 20px;
+        margin-bottom: 8px;
+        color: rgb(161 161 170);
+    }
+
+    .di2p2 {
+        border: 1px solid rgb(109, 29, 188);
+        width: 70%;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        color: #7e1ab8;
+        background-color: rgba(42, 36, 60, 0.6);
+
+    }
+
+    .di2p3 {
+
+        width: 70%;
+        padding: 8px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+
+    }
+
+    .di2p3:hover {
+
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di3 {
+        color: white;
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .di3p1 {
+        padding-left: 20px;
+        margin-bottom: 1px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+    .di3p2 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        height: 25px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p2:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p3 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        text-transform: capitalize;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p3li {
+        color: rgb(161 161 170);
+        text-decoration: none;
+    }
+
+    .di3p3:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di3p4 {
+
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+
+    }
+
+    .di3p4:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di4 {
+        margin-top: 10px;
+    }
+
+    .di5 {
+        margin-top: 12px;
+        color: white;
+    }
+
+    .di5p1 {
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(161 161 170);
+        text-transform: capitalize;
+    }
+
+    .di5p1:hover {
+        background-color: rgb(32, 30, 30);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di5p2 {
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 1px;
+        height: 28px;
+        color: rgb(232, 20, 20);
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .di5p2 i {
+        font-weight: 900;
+    }
+
+    .di5p2:hover {
+        background-color: rgb(62, 45, 45);
+        padding: 10px 10px 10px 10px;
+    }
+
+    .di5di1 {
+        margin-top: 5px;
+        display: flex;
+        margin-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 70%;
+        padding-left: 10px;
+        border-radius: 10px;
+        background-color: rgb(32, 30, 30);
+    }
+
+    .di5di1 img {
+        border-radius: 10px;
+        border: 1px dotted white;
+    }
+
+    .di5sub1 {
+        margin-left: 10px;
+    }
+
+    .di5sub1p1 {
+        text-transform: capitalize;
+    }
+
+
+    .di5sub1p2 {
+        color: #7e1ab8;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+}

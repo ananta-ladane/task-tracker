@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: none;
+
+
+
+}
+
+@media (min-width:576px) {
+    .main{
+        display: none;
+    }
+    
+}
+
+@media (min-width:769px) {
+    .main{
+        display: none;
+    }
+    
+}
+
+@media (min-width:769px) {
+    .main{
+        display: none;
+    }
+    
+}
+
+@media (min-width:769px) {
+    .main{
+        display: flex;
+    }
+    
+}
+
+@media (min-width:1200px) {
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+
+
+}

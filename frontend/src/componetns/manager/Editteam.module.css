@@ -1,0 +1,36 @@
+.main {
+    width: 80%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.sub {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.myform {
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    padding: 7px;
+    border-radius: 7px;
+}
